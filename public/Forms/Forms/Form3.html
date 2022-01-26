@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Form3.css">
+</head>
+<body>
+    <table class="center">
+        <tr>
+            <th id="Step1"><h2>Step 1:Account</h2></th>
+            <th id="Step2"><h2>Step 2:Personal Details</h2></th>
+            <th id="Step3"><h2>Step 3:Your Review</h2></th>
+        </tr>
+    </table>
+<div id="cen">
+     <fieldset>
+        <legend><h1>Your Review</h1></legend>
+        <form action="../Form.html">
+            <!-- OPTIONS -->
+            <label for="option">
+                <p><strong>How did you hear about us:</strong>
+            <select required name="Heard about us" id="option" style="font-size: large;">
+                <option disabled selected value="#">Select Option</option>
+                <option value="From Relative">From Relative</option>
+                <option value="From Friend">From Friend</option>
+                <option value="From Teacher">From Teacher</option>
+                <option value="From Parents">From Parents</option>
+                <option value="From Colleague">From Colleague</option>
+            </select>
+            </option>
+            <!-- Visit Again -->
+            </label>
+            <p><strong>Would you like to Visit Again</strong><br>
+            <input required type="radio" name="visit" value="Yes" id="Yes">Yes
+            <input type="radio" name="visit" value="No" id="No">No
+            <input type="radio" name="visit" value="Maybe" id="Maybe">Maybe
+            </p>
+            </label>
+            <label for="comments">
+                <p><strong>Comments:</strong><br>
+                <textarea name="comments" placeholder="Please Give Your Review (OPTIONAL)" id="comments" cols="50" rows="5"></textarea>
+            </p>
+            </label>
+            <label for="document">
+                <p><strong>Documents:</strong><br>
+                <input type="file" required name="file" id="document">
+                </p>
+            </label>
+            <label for="social_link">
+                <p><strong>Social Link:</strong>
+                <br><input type="url" required placeholder="Enter Your Profile Link" name="Social Link" size="35" style="font-size: large;" id="social_link"></p>
+            </label>
+            <br>
+            <a href="./Form1.html"><img src="../Images/back.png" alt="back" width="200"></a>
+            <label for="Submit">
+                <button type="submit"><img src="../Images/next.png" alt="next" width="200"></button>
+            </label>
+        </fieldset>  
+    </form>
+</div>
+</body>
+</html>

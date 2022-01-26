@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Form2.css">
+</head>
+<body>
+        <table class="center">
+            <tr>
+                <th id="Step1"><h2>Step 1:Account</h2></th>
+                <th id="Step2"><h2>Step 2:Personal Details</h2></th>
+                <th id="Step3"><h2>Step 3:Your Review</h2></th>
+            </tr>
+        </table>
+    <div id="cen">
+         <fieldset>
+             <legend><h1>Personal Details</h1></legend>
+             <form action="./Form3.html">
+                <label for="first_name">
+                    <p><strong>First Name:</strong><br>
+                <input type="text" required placeholder="Enter First Name" name="First Name" id="first_name" size="35" maxlength="18" style="font-size: large;"></p>
+                </label>
+                <label for="last_name">
+                    <p><strong>Last Name:</strong><br><input type="text" required
+                     placeholder="Enter Last Name" name="Last Name" id="last_name" size="35" maxlength="30" style="font-size: large;"></p>
+                </label>
+                <label for="cnic">
+                    <p><strong> CNIC:</strong><br><input type="number" pattern="" required name="cnic" id="cnic" style="width: 9.4cm; height: 0.5cm;" ></p>
+                </label>
+                <label for="social_link">
+                    <p><strong>Social Link:</strong>
+                    <br><input type="url" required placeholder="Enter Your Profile Link" name="Social Link" size="35" style="font-size: large;" id="social_link"></p>
+                </label>
+                <br>
+                <a href="./Form1.html"><img src="../Images/back.png" alt="back" width="200"></a>
+                <label for="Submit">
+                    <button type="submit"><img src="../Images/next.png" alt="next" width="200"></button>
+                </label>
+            </fieldset>  
+        </form>
+    </div>
+</body>
+</html>

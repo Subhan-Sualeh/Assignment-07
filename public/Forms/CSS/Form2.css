@@ -1,0 +1,26 @@
+
+table{
+    border-collapse: collapse;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cen{
+    text-align: left;
+    margin-left: 7cm;
+    margin-right: 8cm;
+    font-size: 25px;
+}
+#Step1 {
+background-color: rgb(107, 223, 117);
+}
+#Step2{
+    background-color: rgb(105, 169, 226);
+}
+#Step3 {
+    background: rgb(194, 194, 195);
+}
+button{
+    background-color: transparent;
+    border: transparent;    
+}
